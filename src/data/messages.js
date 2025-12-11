@@ -26,10 +26,11 @@ export const messages = [
   "Yarın resmi olarak noel başlıyor ve noel pazarları hareketleniyor 👀", // 24 Aralık
   "Mutlu Noeller! Sevgilinle sevgi dolu bir gün geçir! 🎄🎅", // 25 Aralık
   "Bartu senin için özel bir çikolata aldı git ve iste 🍫", // 26 Aralık
-  "Bugün çok güzel görünüyorsun 💅", // 27 Aralık
+  "Bu kadar tatlı ve şirin bir koca bebek olmak nasıl bir his ? 💅", // 27 Aralık
   "Bugün seni tatlı yemeye götürüyorum 🍻", // 28 Aralık
   "Yarın Gürcistana yolculuğumuz başlıyor kemerleri bağla 🧳 ", // 29 Aralık
   "Gürcistan yolları bekler bavul hazırsa beraber ilk yurtdışı maceramız 🌍", // 30 Aralık
   "Yılın son günü, ve seninle dolu geride kalan bir yıl! 🥂", // 31 Aralık
   "Mutlu Yıllar! Seni çok seviyorum bu yılda da seni çok sevicem 🎊🎉❤️", // 1 Ocak
 ];
+
