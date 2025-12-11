@@ -11,26 +11,27 @@ export const messages = [
   "Sevdiğin bir film izle, rahatlat kendini 🎬", // 9 Aralık
   "Sana bugün için bir çikolata hediyem var 🍫", // 10 Aralık
   "Bugün için Bartuştan 10 tl hediye kazandın! 🎉", // 11 Aralık
-  "Bugün paylaşıcağın reels çok izlenicek buna inan ! 🙎‍♀️ ", // 12 Aralık
-  "Akşam hamburger yemeye ne dersin ? 🍔", // 13 Aralık
-  "Yılbaşı ağacını süslemeye başlayalım! 🎄", // 14 Aralık
-  "Bugün Bartu'nun senin için minik bir süprizi var 🎁", // 15 Aralık
-  "Bugün senin günün Bartuştan git ve öpücüğünü istemeyi unutma 🤗", // 16 Aralık
-  "1 tl hediye kazandın! 🎉", // 17 Aralık
-  "Özel kurabiye ödülünü iste 🍪 ", // 18 Aralık
-  "Spotifyda playlistimizi aç ve dinle !", // 19 Aralık
-  "Bartu senden güzel bir mesaj bekliyor sevgini göstermeyi unutma ❤️", // 20 Aralık
-  "Ev yapımı lezzetler hazırla antep fıstıklı brownie olabilir ? 🍰", // 21 Aralık
-  "Yılın en uzun gecesi geride kaldı artık yaz geliyor yaz alışverişi mi yoksa ? 🛒", // 22 Aralık
-  "Bartu'nun sana bugün için 5 tl hediyesi var 🎁", // 23 Aralık
-  "Yarın resmi olarak noel başlıyor ve noel pazarları hareketleniyor 👀", // 24 Aralık
-  "Mutlu Noeller! Sevgilinle sevgi dolu bir gün geçir! 🎄🎅", // 25 Aralık
-  "Bartu senin için özel bir çikolata aldı git ve iste 🍫", // 26 Aralık
-  "Bu kadar tatlı ve şirin bir koca bebek olmak nasıl bir his ? 💅", // 27 Aralık
-  "Bugün seni tatlı yemeye götürüyorum 🍻", // 28 Aralık
-  "Yarın Gürcistana yolculuğumuz başlıyor kemerleri bağla 🧳 ", // 29 Aralık
-  "Gürcistan yolları bekler bavul hazırsa beraber ilk yurtdışı maceramız 🌍", // 30 Aralık
+  "Eti Cin Portakal Soslu Bisküvi 🙎‍♀️ ", // 12 Aralık
+  "Ozmo Ogopogo Çilek Soslu Kek 🍔", // 13 Aralık
+  "Ülker Beyaz Çikolatalı Gofret  🎄", // 14 Aralık
+  "Nestle Salep 🎁", // 15 Aralık
+  "Eti Crax Çubuk Kraker 🤗", // 16 Aralık
+  "Ülker Piko Çikolata 🎉", // 17 Aralık
+  "Alpella Üçgen Beyaz Çikolatalı Gofret 🍪 ", // 18 Aralık
+  "Ülker Çokoprens 🍰", // 19 Aralık
+  "Eti Puf Gold ❤️", // 20 Aralık
+  "Petito Patim Çikolata 🍰", // 21 Aralık
+  "Ülker Çokomel 🛒", // 22 Aralık
+  "Eti Brownie Gold Vişneli 🎁", // 23 Aralık
+  "Ülker Metro Çikolata %40 Fazla 👀", // 24 Aralık
+  "Ülker Kat Kat Tat Çilekli 🎅", // 25 Aralık
+  "Ülker Çikolatalı Gofret 🍫", // 26 Aralık
+  "Nestle Sıcak Çikolata 💅", // 27 Aralık
+  "Ülker Albeni 🍻", // 28 Aralık
+  "Ülker Coco Star 🧳 ", // 29 Aralık
+  "Ülker Kekstra Çilekli Jölebol 🌍", // 30 Aralık
   "Yılın son günü, ve seninle dolu geride kalan bir yıl! 🥂", // 31 Aralık
   "Mutlu Yıllar! Seni çok seviyorum bu yılda da seni çok sevicem 🎊🎉❤️", // 1 Ocak
 ];
+
 
