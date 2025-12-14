@@ -14,7 +14,7 @@ export const messages = [
   "Eti Cin Portakal Soslu Bisküvi 🙎‍♀️ ", // 12 Aralık
   "Ozmo Ogopogo Çilek Soslu Kek 🍔", // 13 Aralık
   "Ülker Beyaz Çikolatalı Gofret  🎄", // 14 Aralık
-  "Nestle Salep 🎁", // 15 Aralık
+  "Sıcak Bir Salep Seni Bekliyor 🎁", // 15 Aralık
   "Eti Crax Çubuk Kraker 🤗", // 16 Aralık
   "Ülker Piko Çikolata 🎉", // 17 Aralık
   "Alpella Üçgen Beyaz Çikolatalı Gofret 🍪 ", // 18 Aralık
@@ -33,5 +33,6 @@ export const messages = [
   "Yılın son günü, ve seninle dolu geride kalan bir yıl! 🥂", // 31 Aralık
   "Mutlu Yıllar! Seni çok seviyorum bu yılda da seni çok sevicem 🎊🎉❤️", // 1 Ocak
 ];
+
 
 
