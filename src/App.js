@@ -12,8 +12,13 @@ const App = () => {
   // State Tanımları - localStorage'dan başlangıç değeri al
   const [openedBoxes, setOpenedBoxes] = useState(() => {
     const saved = localStorage.getItem("adventCalendarOpenedBoxes");
-    return saved ? JSON.parse(saved) : [];
+    // 31 ve 32 hariç tüm kutuları otomatik aç
+    const autoOpen = Array.from({ length: 32 }, (_, i) => i + 1).filter(
+      (d) => d !== 31 && d !== 32
+    );
+    return saved ? JSON.parse(saved) : autoOpen;
   });
+    const [showSurprise, setShowSurprise] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
   const [showToast, setShowToast] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
@@ -25,6 +30,18 @@ const App = () => {
       JSON.stringify(openedBoxes)
     );
   }, [openedBoxes]);
+
+  // Sayfa açılınca konfetiler ve sürpriz mesajı göster
+  useEffect(() => {
+    setShowConfetti(true);
+    setShowSurprise(true);
+    const confettiTimeout = setTimeout(() => setShowConfetti(false), 4000);
+    const surpriseTimeout = setTimeout(() => setShowSurprise(false), 4000);
+    return () => {
+      clearTimeout(confettiTimeout);
+      clearTimeout(surpriseTimeout);
+    };
+  }, []);
 
   // Kutu Tıklama Olayı
   const handleBoxClick = (day) => {
@@ -66,9 +83,33 @@ const App = () => {
         <Confetti
           width={width}
           height={height}
-          numberOfPieces={500}
+          numberOfPieces={800}
           recycle={false}
         />
+      )}
+
+      {/* Bartu'nun Sürprizi */}
+      {showSurprise && (
+        <div
+          style={{
+            position: "fixed",
+            top: "40%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            background: "rgba(255,255,255,0.95)",
+            color: "#c0392b",
+            fontSize: "2.2rem",
+            fontWeight: "bold",
+            borderRadius: "20px",
+            padding: "40px 60px",
+            zIndex: 2000,
+            boxShadow: "0 8px 32px rgba(0,0,0,0.25)",
+            textAlign: "center",
+            border: "3px solid #c0392b"
+          }}>
+          Bartu'nun Sürprizi 🎁<br />
+          <span style={{ fontSize: "1.5rem" }}>Buşişe, Bartu seni çok seviyor! 💖</span>
+        </div>
       )}
 
       <header className="text-center mb-5">
