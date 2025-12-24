@@ -13,12 +13,16 @@ export const canOpenBox = (dayNumber) => {
   const currentMonth = today.getMonth(); // 0-11 (Aralık 11, Ocak 0)
   const currentDay = today.getDate();
 
-  // 31 Aralık (31) ve 1 Ocak (32) hariç diğer kutular açılabilir
+  // 31 Aralık (31) ve 1 Ocak (32) hariç
   if (dayNumber === 31 || dayNumber === 32) {
     return false;
   }
-  // Diğer tüm kutular açılabilir
-  return true;
+  // Sadece gün geldiğinde açılabilir
+  if (currentMonth === 11 && currentYear === 2025) {
+    return dayNumber <= currentDay;
+  }
+  // Diğer zamanlarda açılmasın
+  return false;
 };
 
 export const getLockedMessage = (dayNumber) => {
